@@ -7,6 +7,15 @@
   background-size: cover;
   position: absolute;
 }
+.bkghome
+{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(olimg.png);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
 
 .box
 {box-shadow:
@@ -36,7 +45,7 @@ body {
 }
 
 .topnav a {
-  float: left;
+  float: right;
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
@@ -47,12 +56,35 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color:rgb(134, 189, 241);
   color: black;
   border-radius: 10px;
 }
 
 .topnav a.active {
+  background-color: rgb(134, 189, 241);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+
+}
+.topnav c {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+
+}
+
+.topnav c:hover {
+  background-color:rgb(134, 189, 241);
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav c.active {
   background-color: rgb(134, 189, 241);
   color: rgb(255, 255, 255);
   border-radius: 10px;
