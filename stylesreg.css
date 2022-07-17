@@ -2,7 +2,7 @@
 {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(olimg.png);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(moviebkg.avif);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -11,7 +11,7 @@
 {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(olimg.png);
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(moviebkg.avif);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -27,11 +27,11 @@
   0 100px 80px rgba(0, 0, 0, 0.12)
 ;
   width:380px;
-  height: 380px;
+  height: 480px;
   position: relative;
   margin: 6% auto; 
   border-radius: 10px;
-  background-color: rgb(134, 189, 241);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 5px;
 }
 body {

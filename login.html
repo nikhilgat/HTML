@@ -1,44 +1,59 @@
 <html>
   <head>
-    <style>
-      body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-      label{
-    width: 100px;
-    display: inline-block;
-}
-    </style>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="stylesreg.css" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="stylesreg.css">
    </head>
 <body>
-  <div class="topnav">
-    <a href="login.html">Login</a>
-    <a href="regpage1.html">Register</a>
-    <a href="regpage2.html">About</a>
-    <c href="home.html">ONLINE EDUCATION</c>
-  </div>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <img src="logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="home.html" style="text-align: center; color: rgb(255, 255, 255);">Moview</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="login.html" style="text-align: center; color: rgb(255, 255, 255);">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" style="text-align: center; color: rgb(255, 255, 255);">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 <div class = "bkg">
   <div class = "box">
     <div style="text-align: center;">
     <form> 
-      <h1 style="text-align: center;">
+      <br><h1 style="text-align: center; color: rgb(255, 255, 255);">
         LOGIN
       </h1><br><br>
-      <label for="uname">Username:</label>
-      <input type="text" id="uname" name="uname"><br><br>
-      <label for="pwd">Password:</label>
-      <input type="text" id="pwd" name="pwd"><br><br>
-      <div class="container signin">
+      <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
+        <span class="input-group-text" id="inputGroup-sizing-default">Mail - Id</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div><br>
+      <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
+        <span class="input-group-text" id="inputGroup-sizing-default">Password  </span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <br><br><div class="container signin" style="text-align: center; color: rgb(255, 255, 255);">
         <p>Don't have an account? <a href="regpage1.html">Create one</a>.</p>
       </div><br>
-      <input type="submit" value="Log In">
-  </form>
-  </div>
+      <br><button type="submit" class="btn btn-success btn-lg" value="Submit" href="catalogue.html">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-</body>
+  </body>
 </html>
