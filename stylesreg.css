@@ -16,6 +16,15 @@
   background-size: cover;
   position: absolute;
 }
+.bkgcatalogue
+{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(greybkg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
 
 .box
 {box-shadow:
