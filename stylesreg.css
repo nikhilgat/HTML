@@ -20,7 +20,6 @@
 {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(greybkg.jpg);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -39,9 +38,9 @@
   height: 480px;
   position: relative;
   margin: 6% auto; 
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px;
+  padding: 20px;
 }
 body {
   margin: 0;
@@ -97,5 +96,37 @@ body {
   background-color: rgb(134, 189, 241);
   color: rgb(255, 255, 255);
   border-radius: 10px;
+
+}
+.cards
+{
+  align-items: center;
+  width: 20%;
+  display: inline-block;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 32px;
+}
+.image img
+{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.title
+{
+  text-align: center;
+  padding: 10px;
+}
+.button
+{
+margin-bottom: 10px;
+}
+.bkgcatalogue
+{
+  background-color: rgb(54, 53, 53);
+}
+.maincard
+{
 
 }
