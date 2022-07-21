@@ -15,6 +15,7 @@
     if(username.value() =="" || password.value()=="")
     {
         alert("Please provide the input");
+        return false;
     }
     else 
     {
@@ -26,7 +27,7 @@
    </head>
 
 <!-- NAVBAR STARTS-->
-
+<div class="topnav a">
 <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid">
     <a href="home.html">
@@ -58,6 +59,7 @@
     </div>
   </div>
 </nav>
+</div>
 <!-- NAVBAR ENDS-->
 
 <!-- TEXT BOX STARTS-->
@@ -65,7 +67,7 @@
 <div class = "bkg">
   <div class = "box">
     <div style="text-align: center;">
-    <form> 
+    <form onsubmit="return validate()"> 
       <br><h1 style="text-align: center; color: rgb(255, 255, 255);">
         LOGIN
       </h1><br><br>
@@ -81,7 +83,7 @@
       <br><br><div class="container signin" style="text-align: center; color: rgb(255, 255, 255);">
         <p>Don't have an account? <a href="regpage1.html">Create one</a>.</p>
       </div><br>
-      <br><button onclick="validate"  class="btn btn-success btn-lg" value="Submit">Login</button>
+      <br><button class="btn btn-success btn-lg" value="Submit">Login</button>
             </form>
           </div>
         </div>

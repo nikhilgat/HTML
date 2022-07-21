@@ -8,6 +8,7 @@ function validate()
     if(username.value() == "" || password.value() =="")
     {
         alert("Please provide the input");
+        return false;
     }
     else 
     {
