@@ -124,12 +124,6 @@ margin-bottom: 10px;
 }
 .list 
 {
-  margin-top: 0%;
-  padding: 0%;
-  list-style: none;
-  font-size: 20px;
-  line-height: 1.6;
-  margin-bottom: 0%;
-  display: inline-block;
-
+  text-align: center;
+  
 }
