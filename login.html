@@ -9,10 +9,10 @@
     <script>
       function validate()
 {
-    var username = document.getElementById("MailId");
-    var password = document.getElementById("Password");
+    var mail=document.myform.name.value;
+    var password = document.myform.password.value;
 
-    if(username.value() =="" || password.value()=="")
+    if(name ==null || name=="")
     {
         alert("Please provide the input");
         return false;
@@ -74,11 +74,11 @@
       <div id="error"></div>
       <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
         <span class="input-group-text" id="MailId">Mail - Id</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Mail-Id">
+        <input type="text" name="mail" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Mail-Id">
       </div><br>
       <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
         <span class="input-group-text" id="Password">Password</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Password">
+        <input type="text" name="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Password">
       </div>
       <br><br><div class="container signin" style="text-align: center; color: rgb(255, 255, 255);">
         <p>Don't have an account? <a href="regpage1.html">Create one</a>.</p>
