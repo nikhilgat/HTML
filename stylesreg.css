@@ -52,12 +52,14 @@
   float: right;
   color: #ffffff;
   text-align: center;
-  padding: 1px 1px;
+  padding: 1px 10px;
+  padding-bottom: 0px;
   text-decoration:none;
   font-size: 17px;
   border-radius: 10px;
 
 }
+
 
 .topnav a:hover {
   color: black;

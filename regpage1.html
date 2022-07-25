@@ -1,68 +1,73 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="stylesreg.css" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="stylesreg.css">
-   </head>
-
+  </head>
+  <body class="bkgcatalogue">
+      
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
 <!-- NAVBAR STARTS-->
-<nav class="navbar navbar-expand-lg bg-dark">
-  <div class="container-fluid">
-    <a href="home.html">
-      <img src="logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
-    </a>
-      <button class="btn btn">
-    <a class="navbar-brand" href="home.html" style="text-align: center; color: rgb(255, 255, 255);">CineReview</a>
-      </button>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <button class="btn btn">
-          <a class="nav-link active" aria-current="page" href="login.html" style="text-align: center; color: rgb(255, 255, 255);">Login</a>
+<div class="topnav a">
+  <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a href="home.html">
+          <img src="logo.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+        </a>
+          <button class="btn">
+        <a class="navbar-brand" href="home.html" style="text-align: center; color: rgb(255, 255, 255);">CineReview</a>
           </button>
-        </li>
-        <li class="nav-item">
-          <button class="btn btn">
-          <a class="nav-link active" href="catalogue.html" style="text-align: center; color: rgb(255, 255, 255);">Main</a>
-          </button>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit" >Search</button>
-      </form>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button class="btn btn">
+              <a class="nav-link active" aria-current="page" href="login.html" style="text-align: center; color: rgb(255, 255, 255);">Login</a>
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn">
+              <a class="nav-link active" href="catalogue.html" style="text-align: center; color: rgb(255, 255, 255);">Main</a>
+              </button>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit" >Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
     </div>
-  </div>
-</nav>
-
 <!-- NAVBAR ENDS-->
 
-<!-- BACKGROUND AND BOX STARTS-->
+<!-- LOGIN BODY STARTS -->
 
 <div class = "bkg">
   <div class = "box">
     <div style="text-align: center;">
     <form> 
-      <br><h1 style="text-align: center; color: rgb(255, 255, 255);">
+      <h1 style="text-align: center; color: rgb(255, 255, 255); font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
         REGISTER
       </h1><br>
       <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
-        <span class="input-group-text" id="inputGroup-sizing-default">First Name</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="First Name">
+        <span class="input-group-text" id="inputGroup-sizing-default">Full Name</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Full Name">
       </div>
       <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
-        <span class="input-group-text" id="inputGroup-sizing-default">Last Name</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Last Name">
-      </div>
-      <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
-        <span class="input-group-text" id="inputGroup-sizing-default"> Email-Id</span>
+        <span class="input-group-text" id="inputGroup-sizing-default">Email-Id</span>
         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Email-Id">
+      </div>
+      <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
+        <span class="input-group-text" id="inputGroup-sizing-default">Password</span>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Password">
       </div>
       <div class="input-group mb-3" style="text-align: center; color: rgb(255, 255, 255);">
         <span class="input-group-text" id="inputGroup-sizing-default">OTP</span>
@@ -71,14 +76,13 @@
       <br><div class="container signin" style="text-align: center; color: rgb(255, 255, 255);">
         <p>Already have an account? <a href="login.html">Login</a>.</p>
       </div><br>
-      <button type="button" class="btn btn-success btn-lg">Sign-Up</button>
+      <button type="button" class="btn btn-warning btn-lg">Sign-Up</button>
   </form>
   </div>
     </div>
   </div>
 
-<!-- BACKGROUND AND BOX ENDS-->
+<!-- LOGIN BODY ENDS -->
 
-</div>
-</body>
+    </body>
 </html>
