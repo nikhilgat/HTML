@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+
+
 .bkg 
 {
   height: 100%;
@@ -74,6 +77,7 @@
   background-color: aliceblue;
   border-radius: 10px;
   margin: 32px;
+
 }
 .image img
 {
@@ -110,7 +114,7 @@ margin-bottom: 10px;
 .footer
 {
   padding: 40px 0;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(50, 50, 50);
 }
 .icons
 {
@@ -148,11 +152,20 @@ margin-bottom: 10px;
 
 .contentbox
 {
-  width: 20%;
-  height: 20%;
-  background-color: rgb(255, 0, 0);
+  width: 50%;
+  height: 700px;
   position: relative;
-  left: 15%;
-  top: 20%;
-  
+  left: 20%;
+  top: 200px;
+  background-color: rgba(193, 33, 33, 0);
+
+
 }
+.reviewbkg
+{
+  height: 100%;
+  width:100%;
+  background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(poster1.jpeg);
+  background-position: center;
+}
+
